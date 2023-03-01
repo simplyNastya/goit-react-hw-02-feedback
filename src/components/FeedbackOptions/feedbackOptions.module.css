@@ -1,16 +1,19 @@
 .list {
+    padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
 
     font-weight: 900;
 }
 
-/* .item{} */
 
 .btn{
     width: 80px;
     padding: 5px 10px;
+
+    text-transform: capitalize;
+
     background-color: #fff;
     border: 1px solid rgb(191, 187, 187);
     border-radius: 5px;
