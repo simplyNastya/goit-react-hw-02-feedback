@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from './notification.module.css';
 
-Notification = ({ message }) => {
+const Notification = ({ message }) => {
   return <h2 className={styles.text}>{message}</h2>;
 };
 
